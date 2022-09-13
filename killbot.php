@@ -100,7 +100,7 @@ class Killbot
 				die($suspend);
 				break;
 			default:
-				die(header("Location: https://xfake.herokuapp.com/"));
+				die(header("Location: " .$code));
 				break;
 		}
 	}
